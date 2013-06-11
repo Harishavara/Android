@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SharedPreferences Backup Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="introduction">Welcome to SharedPreferences Backup Demo!\n</string>
+    <string name="shared_pref">Display name:\n</string>
+	<string name="newLine">\n</string>
+	<string name="chkNotification">Notification</string>
+	<string name="chkSound">Sound</string>
+	<string name="btnSave">Save</string>
+    <string name="btnRestore">Restore</string>
+
+</resources>
