@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">COMP7481_Asg6_2D_Gestures</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="txtInstructions">Double Tap to Change Colours</string>
+
+</resources>
