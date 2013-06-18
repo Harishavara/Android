@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">CustomList</string>
+    <string name="add">Add Contact</string>
+	<string name="edit">Enter Contact ID to Edit</string>
+    <string name="delete">Delete Contact</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Contacts Details</string>
+	<string name="ID">ID</string>
+    <string name="name">Name</string>
+    <string name="runs">Number</string>
+
+</resources>

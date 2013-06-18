@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 android:orientation="vertical"
+			 android:layout_width="fill_parent"
+			 android:layout_height="fill_parent">
+			 
+		<TextView
+			 android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+			 android:text="@string/introduction" />
+		
+		<LinearLayout android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	      	android:layout_height="wrap_content" >
+	      	
+		    <TextView
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+				 android:text="@string/shared_pref" />
+				 
+			 <EditText
+				 android:id="@+id/edtTxtSharedPref"
+				 android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				 android:inputType="text"/>
+		
+		</LinearLayout>
+
+		<CheckBox
+		    android:id="@+id/chkNotification"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/chkNotification" />
+
+		<CheckBox
+		    android:id="@+id/chkSound"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/chkSound" />
+
+	    <Button
+			 android:id="@+id/btnSave"
+			 android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+			 android:text="@string/btnSave" />
+		
+</LinearLayout>
