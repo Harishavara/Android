@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">COMP7481_Asg8_GPS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="lat">Latitude: </string>
+    <string name="longitude">Longitute: </string>
+    <string name="unknown">Unknown</string>
+
+</resources>

@@ -1,0 +1,1 @@
+The HTTPURLConnection folder is the Android file. The midp folder is the tomcat server file.
