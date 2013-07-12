@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="contentHeading">The UltiVillage Team</string>
+    <string name="componentHeading">Contact UV </string>
+    <string name="app_name">UltiVillage</string>
+    <string name="txtButton">Button</string>
+    <string name="newLineOne">\n</string>
+    <string name="newLine"></string>
+    <string name="notAvailable">This tab is under construction</string>
+    <string name="ultiUrl"><u>http://www.ultivillage.com</u></string>
+    <string name="ultiEmail"><u>rob@ultivillage.com</u></string>
+</resources>

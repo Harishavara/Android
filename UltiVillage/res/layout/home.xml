@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+				<!-- Displays the component heading -->
+	<TextView style="@style/contentHeading" android:text="@string/componentHeading"
+		android:textSize="24px" />
+				
+				<!-- Adds a new line -->
+	<TextView style="@style/contentSpacing" android:text="@string/newLine" />
+				    
+				<!-- Displays the content heading -->
+	<TextView style="@style/contentHeading" android:text="@string/contentHeading"
+		android:textSize="19px" />
+				    
+				<!-- Adds a new line -->
+	<TextView style="@style/contentSpacing" android:text="@string/newLine" />
+				
+				<!-- Inserting a table with its format -->
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:shrinkColumns="1">
+		<TableRow>
+					
+					<!-- Displays the address house icon -->
+			<ImageView style="@style/contentImagePadding" android:src="@drawable/con_address" />
+					
+					<!-- Another table within a table to display the address -->
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:shrinkColumns="1">
+				<TableRow>
+					<TextView style="@style/contentStyle" android:text="15073 98A Ave" />
+				</TableRow>
+				<TableRow>
+					<TextView style="@style/contentStyle" android:text="Surrey" />
+				</TableRow>
+				<TableRow>
+					<TextView style="@style/contentStyle" android:text="British Columbia" />
+				</TableRow>
+				<TableRow>
+					<TextView style="@style/contentStyle" android:text="V3R 8G6" />
+				</TableRow>
+				<TableRow>
+					<TextView style="@style/contentStyle" android:text="Canada" />
+				</TableRow>
+			</TableLayout>
+		</TableRow>
+					
+					<!-- Adds a new line -->
+		<TextView style="@style/contentSpacing" android:text="@string/newLine" />
+		<TableRow>
+					
+					<!-- Displays the email envelope icon -->
+			<ImageView style="@style/contentImagePadding" android:src="@drawable/con_email" />
+					
+					<!-- Another table within a table to display the address -->
+			<TableLayout>
+				<TableRow>
+					<TextView style="@style/contentStyle" android:text="rob@ultivillage.com" />
+				</TableRow>
+				<TableRow>
+					<TextView style="@style/contentStyle" android:text="http://www.ultivillage.com" />
+				</TableRow>
+			</TableLayout>
+		</TableRow>
+					
+					<!-- Adds a new line -->
+		<TextView style="@style/contentSpacing" android:text="@string/newLine" />
+		<TableRow>
+					
+					<!-- Displays the info icon -->
+			<ImageView style="@style/contentImagePadding" android:src="@drawable/con_info" />
+					
+					<!-- Another table within a table to display the address -->
+			<TableLayout>
+				<TableRow>
+					<TextView style="@style/contentStyle"
+						android:text="UltiVillage is always looking for website feedback and content suggestions. Send us an e-mail and we'll get back to you as soon as we can!" />
+				</TableRow>
+			</TableLayout>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

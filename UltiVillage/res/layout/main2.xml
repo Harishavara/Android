@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+	class="com.ultivillage.UltiVillageCOTD$iRelativeLayout"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/ultivillage_bg">
+	<LinearLayout android:id="@+id/TabLayout_One"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_above="@+id/Tabs">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:visibility="visible"
+			android:layout_above="@+id/Tabs">
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:shrinkColumns="1">
+				<TableRow>
+					<TextView android:textColor="@android:color/black"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="This is the COTD tabs with the Recents sub tab" />
+				</TableRow>
+			</TableLayout>
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/TabLayout_Two"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_above="@+id/Tabs">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:visibility="visible"
+			android:layout_above="@+id/Tabs">
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:shrinkColumns="1">
+				<TableRow>
+					<TextView android:textColor="@android:color/black"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="This is the COTD tabs with the Popular sub tab" />
+				</TableRow>
+			</TableLayout>
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/TabLayout_Three"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_above="@+id/Tabs">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:visibility="visible"
+			android:layout_above="@+id/Tabs">
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:shrinkColumns="1">
+				<TableRow>
+					<TextView android:textColor="@android:color/black"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="This is the COTD tabs with the Favorites sub tab" />
+				</TableRow>
+			</TableLayout>
+		</RelativeLayout>
+	</LinearLayout>
+	<view class="com.ultivillage.UltiVillageCOTD$iTab" android:id="@+id/Tabs"
+		android:layout_width="fill_parent" android:layout_height="49px"
+		android:layout_alignParentBottom="true" />
+</view>

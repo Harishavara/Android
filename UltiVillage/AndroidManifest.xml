@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.ultivillage" android:versionCode="1" android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".UltiMain" android:theme="@style/androidTheme">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".UltiCOTDSub" android:theme="@style/androidTheme">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".UltiCOTD" />
+		<activity android:name=".UltiPopular" />
+		<activity android:name=".UltiFav" />
+		<intent-filter>
+			<action android:name="android.intent.action.VIEW" />
+			<action android:name="android.intent.action.PICK" />
+			<category android:name="android.intent.category.DEFAULT"></category>
+		</intent-filter>
+		<activity android:name=".UltiUVTV" />
+		<activity android:name=".UltiFeeds" />
+		<activity android:name=".UltiAbout">
+			<intent-filter>
+				<action android:name="android.intent.action.ACTION_SEND" />
+				<data android:scheme="mailto" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".UltiWebHome">
+			<intent-filter>
+				<action android:name="com.ultivillage.ultiWebHome" />
+				<category android:name="android.intent.category.DEFAULT"></category>
+			</intent-filter>
+		</activity>
+	</application>
+	<uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>
